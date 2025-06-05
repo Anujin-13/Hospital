@@ -1,10 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-        Patient p1 = new Patient("Бат", 30, "88112233");
-        Doctor d1 = new Doctor("Д.Энх", "Дотор");
+        Patient patient = new Patient("patient1", "pass123", "Наран", 28, "99001122");
+        Doctor doctor = new Doctor("doctor1", "docpass", "Эмч Болд", "Зүрх судас");
 
-        Appointment a1 = new Appointment(p1, d1, "2025-06-06");
+        Appointment appointment = new Appointment("2025-06-10", "Төлөвлөсөн", patient, doctor);
+        doctor.addAppointment(appointment);
 
-        System.out.println(a1);
+        VisitRecord visitRecord = new VisitRecord("2025-06-10", "Цусны даралт ихсэлт", "Эмчилгээний эм", patient);
+        patient.addVisitRecord(visitRecord);
+
+        System.out.println("Өвчтөн: " + patient.getName() + ", Утас: " + patient.getPhone());
+        System.out.println("Эмч: " + doctor.getName() + ", Хэлтэс: " + doctor.getDepartment());
+        System.out.println("Цаг захиалгын огноо: " + appointment.getDate() + ", Төлөв: " + appointment.getStatus());
+
+        System.out.println("Эмчилгээний түүх:");
+        for (VisitRecord record : patient.getVisitRecords()) {
+            System.out.println("- Огноо: " + record.getDate() + ", Онош: " + record.getDiagnosis() + ", Эмчилгээ: " + record.getTreatment());
+        }
     }
 }
