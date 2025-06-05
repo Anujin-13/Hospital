@@ -1,4 +1,4 @@
-<img width="556" alt="Screenshot 2025-06-05 at 12 58 09" src="https://github.com/user-attachments/assets/d388d68c-f85e-48b3-9b6d-ffd266b24f42" />Эмнэлгийн Өвчтөн Удирдлагын Систем
+Эмнэлгийн Өвчтөн Удирдлагын Систем
 
 Зорилго:
 
@@ -29,6 +29,9 @@
 Модуль нь Java хэл дээр бүтээгдэж, үндсэн классуудад Patient, Doctor, Appointment, VisitRecord багтсан. Цаашид онлайн бүртгэл, мэдэгдэл, SMS/email integration нэмэх боломжтой.
 
 <img width="556" alt="Screenshot 2025-06-05 at 12 58 09" src="https://github.com/user-attachments/assets/6c288ed9-8910-448b-9e49-78011dc83060" />
+
+<img width="556" alt="Screenshot 2025-06-05 at 12 58 09" src="https://github.com/user-attachments/assets/909bfc2f-4152-4369-bc9b-c75f31161319" />
+
 
 
 Загварын тайлбар:
