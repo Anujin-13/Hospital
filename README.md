@@ -29,6 +29,7 @@
 Модуль нь Java хэл дээр бүтээгдэж, үндсэн классуудад Patient, Doctor, Appointment, VisitRecord багтсан. Цаашид онлайн бүртгэл, мэдэгдэл, SMS/email integration нэмэх боломжтой.
 
 <img width="556" alt="Screenshot 2025-06-05 at 12 58 09" src="https://github.com/user-attachments/assets/6c288ed9-8910-448b-9e49-78011dc83060" />
+ 
  Гаралтын зураг:
 
 <img width="514" alt="Screenshot 2025-06-05 at 13 01 34" src="https://github.com/user-attachments/assets/40a95892-44a1-4448-a60e-6dc73f03a897" />
