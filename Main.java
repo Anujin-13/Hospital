@@ -1,21 +1,67 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Patient patient = new Patient("patient1", "pass123", "Наран", 28, "99001122");
-        Doctor doctor = new Doctor("doctor1", "docpass", "Эмч Болд", "Зүрх судас");
+        Scanner scanner = new Scanner(System.in);
 
-        Appointment appointment = new Appointment("2025-06-10", "Төлөвлөсөн", patient, doctor);
-        doctor.addAppointment(appointment);
+        try {
+            System.out.println("Өвчтөний мэдээлэл оруулна уу:");
+            System.out.print("Нэр: ");
+            String patientName = scanner.nextLine();
+            System.out.print("Нас: ");
+            int age = Integer.parseInt(scanner.nextLine());
+            System.out.print("Утасны дугаар: ");
+            String phone = scanner.nextLine();
 
-        VisitRecord visitRecord = new VisitRecord("2025-06-10", "Цусны даралт ихсэлт", "Эмчилгээний эм", patient);
-        patient.addVisitRecord(visitRecord);
+            Patient patient = new Patient("patient1", "pass123", patientName, age, phone);
 
-        System.out.println("Өвчтөн: " + patient.getName() + ", Утас: " + patient.getPhone());
-        System.out.println("Эмч: " + doctor.getName() + ", Хэлтэс: " + doctor.getDepartment());
-        System.out.println("Цаг захиалгын огноо: " + appointment.getDate() + ", Төлөв: " + appointment.getStatus());
+            System.out.println("\nЭмчийн мэдээлэл оруулна уу:");
+            System.out.print("Нэр: ");
+            String doctorName = scanner.nextLine();
+            System.out.print("Тасаг: ");
+            String department = scanner.nextLine();
 
-        System.out.println("Эмчилгээний түүх:");
-        for (VisitRecord record : patient.getVisitRecords()) {
-            System.out.println("- Огноо: " + record.getDate() + ", Онош: " + record.getDiagnosis() + ", Эмчилгээ: " + record.getTreatment());
+            Doctor doctor = new Doctor("doctor1", "docpass", doctorName, department);
+
+            System.out.println("\nЦаг захиалга үүсгэнэ:");
+            System.out.print("Огноо (жишээ: 2025-06-10): ");
+            String appointmentDate = scanner.nextLine();
+            System.out.print("Төлөв (Нээлттэй / Хаагдсан / Цуцлагдсан): ");
+            String status = scanner.nextLine();
+
+            Appointment appointment = new Appointment(appointmentDate, status, patient, doctor);
+            doctor.addAppointment(appointment);
+
+            System.out.println("\nЭмчилгээний түүх оруулна уу:");
+            System.out.print("Огноо: ");
+            String visitDate = scanner.nextLine();
+            System.out.print("Онош: ");
+            String diagnosis = scanner.nextLine();
+            System.out.print("Эмчилгээ: ");
+            String treatment = scanner.nextLine();
+
+            VisitRecord visitRecord = new VisitRecord(visitDate, diagnosis, treatment, patient);
+            patient.addVisitRecord(visitRecord);
+
+            System.out.println("\n=== Мэдээлэл ===");
+            System.out.println("Өвчтөн: " + patient.getName() + ", Утас: " + patient.getPhone());
+            System.out.println("Эмч: " + doctor.getName() + ", Тасаг: " + doctor.getDepartment());
+            System.out.println("Цаг захиалгын огноо: " + appointment.getDate() + ", Төлөв: " + appointment.getStatus());
+
+            System.out.println("Эмчилгээний түүх:");
+            for (VisitRecord record : patient.getVisitRecords()) {
+                System.out.println("- Огноо: " + record.getDate() +
+                                   ", Онош: " + record.getDiagnosis() +
+                                   ", Эмчилгээ: " + record.getTreatment());
+            }
+
+        } catch (IllegalArgumentException e) {
+            System.out.println(" Алдаа: " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println(" Тогтолцооны алдаа: " + e.getMessage());
         }
+
+        scanner.close();
     }
 }
+

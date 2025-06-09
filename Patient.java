@@ -9,6 +9,19 @@ public class Patient extends User {
 
     public Patient(String username, String password, String name, int age, String phone) {
         super(username, password);
+
+        if (name == null || name.trim().isEmpty()) {
+            throw new IllegalArgumentException("Өвчтөний нэр хоосон байж болохгүй.");
+        }
+
+        if (age <= 0 || age > 120) {
+            throw new IllegalArgumentException("Настай утга буруу байна: " + age);
+        }
+
+        if (phone == null || !phone.matches("\\d{8}")) {
+            throw new IllegalArgumentException("Утасны дугаар 8 оронтой тоо байх ёстой.");
+        }
+
         this.name = name;
         this.age = age;
         this.phone = phone;
@@ -33,11 +46,18 @@ public class Patient extends User {
     }
 
     public void addVisitRecord(VisitRecord record) {
+        if (record == null) {
+            throw new IllegalArgumentException("Оношилгооны бичлэг хоосон байж болохгүй.");
+        }
         visitRecords.add(record);
     }
 
     public List<VisitRecord> getVisitRecords() {
         return visitRecords;
     }
-}
 
+    @Override
+    public String toString() {
+        return "Өвчтөн: " + name + ", Нас: " + age + ", Утас: " + phone;
+    }
+}
