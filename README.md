@@ -1,8 +1,4 @@
-HospitalTest branch  дээр тест бичиж ажиллуулсан код болон гаралтын зураг байгаа.
-
-HospitalTest branch дээр алдааны зохицуулалт нэмж орууллаа.
-
-                                          Эмнэлгийн Өвчтөн Удирдлагын Систем
+Эмнэлгийн Өвчтөн Удирдлагын Систем
 
 Зорилго:
 
@@ -36,7 +32,22 @@ HospitalTest branch дээр алдааны зохицуулалт нэмж ор
  
  Гаралтын зураг:
 
-<img width="514" alt="Screenshot 2025-06-05 at 13 01 34" src="https://github.com/user-attachments/assets/40a95892-44a1-4448-a60e-6dc73f03a897" />
+![image](https://github.com/user-attachments/assets/d46023dd-58bf-415d-b647-1e57dfde2f8b)
+
+
+![Test1](https://github.com/user-attachments/assets/bbcf4cc0-0bd5-4654-8acc-6c3839d21ef3)
+![Test2](https://github.com/user-attachments/assets/7bc5384c-0c8b-44ff-9e78-e5d54b2377e5)
+
+![image](https://github.com/user-attachments/assets/cf736010-97ff-4e5c-b36b-e2f2f0364f06)
+
+![image](https://github.com/user-attachments/assets/a67c2211-35e0-4b3a-a9d0-ce9b040226ab)
+
+![Exception1](https://github.com/user-attachments/assets/f4a7bd13-822d-4a9e-b687-bd45428f23b4)
+![Exception2](https://github.com/user-attachments/assets/989e6856-fde7-4ab2-a22a-dceb3ee3ef7c)
+
+
+
+
 
 
 
