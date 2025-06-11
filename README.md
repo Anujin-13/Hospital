@@ -1,10 +1,10 @@
 # **Эмнэлгийн Өвчтөн Удирдлагын Систем**
 
-Зорилго:
+## **Зорилго:**
 
 Энэ модуль нь эмнэлгийн үйл ажиллагааг дижитал хэлбэрт оруулж, өвчтөн бүртгэл, эмчийн цаг захиалга, эмчилгээний түүх хадгалах процессыг хялбарчлах зорилготой. Ингэснээр эмнэлгийн ачааллыг багасгаж, үйлчилгээний чанарыг нэмэгдүүлнэ.
 
-Хэрэглэгчид ба шаардлагууд:
+## **Хэрэглэгчид ба шаардлагууд:**
 
 Өвчтөн: Өөрийн мэдээллийг бүртгүүлэх, эмчид цаг авах, өөрийн эмчилгээний түүхээ харах.
 
@@ -12,7 +12,7 @@
 
 Эмнэлгийн ажилтан (админ): Бүх өвчтөн, эмчийн бүртгэлийг удирдах, цагийн хуваарь тохируулах, тайлан гаргах.
 
-Гол онцлогууд:
+## **Гол онцлогууд:**
 
 Өвчтөн нэмэх, засах, устгах
 
@@ -30,17 +30,23 @@
 
 <img width="556" alt="Screenshot 2025-06-05 at 12 58 09" src="https://github.com/user-attachments/assets/6c288ed9-8910-448b-9e49-78011dc83060" />
  
- Гаралтын зураг:
+## ** Гаралтын зураг:**
 
 ![image](https://github.com/user-attachments/assets/d46023dd-58bf-415d-b647-1e57dfde2f8b)
 
 
-![Test1](https://github.com/user-attachments/assets/bbcf4cc0-0bd5-4654-8acc-6c3839d21ef3)
-![Test2](https://github.com/user-attachments/assets/7bc5384c-0c8b-44ff-9e78-e5d54b2377e5)
+![Screenshot 2025-06-11 181512](https://github.com/user-attachments/assets/65e8d7e9-d913-485c-b315-356a26fc236a)
 
-![image](https://github.com/user-attachments/assets/cf736010-97ff-4e5c-b36b-e2f2f0364f06)
 
-![image](https://github.com/user-attachments/assets/a67c2211-35e0-4b3a-a9d0-ce9b040226ab)
+![Screenshot 2025-06-11 163609](https://github.com/user-attachments/assets/6494016e-e472-41f6-bdac-bc64b7561f5d)
+![Screenshot 2025-06-11 181358](https://github.com/user-attachments/assets/47fded04-a6cc-488e-b5d1-8fa1b3ddfdb7)
+
+
+![Screenshot 2025-06-11 163521](https://github.com/user-attachments/assets/e9ab0f4a-7c49-4891-bba4-5af54f0cce10)
+![Screenshot 2025-06-11 173816](https://github.com/user-attachments/assets/83492738-13ed-4a48-97c1-78f619234145)
+
+
+
 
 ![Exception1](https://github.com/user-attachments/assets/f4a7bd13-822d-4a9e-b687-bd45428f23b4)
 ![Exception2](https://github.com/user-attachments/assets/989e6856-fde7-4ab2-a22a-dceb3ee3ef7c)
@@ -52,7 +58,7 @@
 
 
 
-Загварын тайлбар:
+## **Загварын тайлбар:**
 
 Эмнэлгийн ERP модулийн загварчлал нь гурван үндсэн класст хуваагдана: Patient, Doctor, Appointment.
 Patient класс нь өвчтөний үндсэн мэдээллийг агуулна: нэр, нас, утас. Doctor класс нь эмчийн нэр болон харьяалагддаг тасгийг илэрхийлнэ. Appointment класс нь өвчтөн ба эмчийн хоорондын цаг захиалгын харилцааг илэрхийлнэ. Appointment нь Patient болон Doctor обьектийг агуулах бөгөөд нэг өвчтөн олон удаа цаг захиалж болно.
