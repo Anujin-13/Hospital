@@ -32,7 +32,7 @@
 
 
  
-## ** Гаралтын зураг:**
+## **Гаралтын зураг:**
 
 ![image](https://github.com/user-attachments/assets/d46023dd-58bf-415d-b647-1e57dfde2f8b)
 
