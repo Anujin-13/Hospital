@@ -15,8 +15,8 @@ public class AppointmentTest {
 
     @BeforeEach
     public void setUp() {
-        patient = new Patient("P002", "Сараа", "99003344", 30);
-        doctor = new Doctor("D002", "Наран", "99114455", "Эмч");
+        patient = new Patient("P002", "Saraa", "99003344", 30);
+        doctor = new Doctor("D002", "Naran", "99114455", "Doctor");
         appointment = new Appointment("A001", patient, doctor, LocalDateTime.now().plusDays(1));
         logger.info("Appointment test setup completed.");
     }

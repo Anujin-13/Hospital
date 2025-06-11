@@ -12,14 +12,14 @@ public class DoctorTest {
 
     @BeforeEach
     public void setUp() {
-        doctor = new Doctor("D001", "Дэлгэр", "99112233", "Кардиолог");
+        doctor = new Doctor("D001", "Boldoo", "99112233", "Cardiologist");
         logger.info("Doctor test setup completed.");
     }
 
     @Test
     public void testSetSpecializationValid() {
-        doctor.setSpecialization("Педиатр");
-        assertEquals("Педиатр", doctor.getSpecialization());
+        doctor.setSpecialization("Pediatrician");
+        assertEquals("Pediatrician", doctor.getSpecialization());
         logger.info("Doctor specialization updated successfully.");
     }
 
@@ -29,6 +29,6 @@ public class DoctorTest {
             doctor.setSpecialization("");
         });
         logger.error("Exception caught: {}", exception.getMessage());
-        assertEquals("Мэргэшлийн талбар хоосон байж болохгүй.", exception.getMessage());
+        assertEquals("The specialization field cannot be empty.", exception.getMessage());
     }
 }

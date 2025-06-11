@@ -12,7 +12,7 @@ public class User {
     public User(String id, String name, String phone) {
         if (id == null || id.trim().isEmpty()) {
             logger.error("User creation failed: empty id");
-            throw new IllegalArgumentException("ID хоосон байж болохгүй.");
+            throw new IllegalArgumentException("ID cannot be empty.");
         }
         this.id = id;
         this.name = name;
@@ -28,7 +28,7 @@ public class User {
     public void setId(String id) {
         if (id == null || id.trim().isEmpty()) {
             logger.error("setId failed: empty id");
-            throw new IllegalArgumentException("ID хоосон байж болохгүй.");
+            throw new IllegalArgumentException("ID cannot be empty.");
         }
         this.id = id;
         logger.info("User id updated: {}", id);

@@ -21,7 +21,7 @@ public class Patient extends User {
     public void setAge(int age) {
         if (age < 0) {
             logger.error("Invalid age: {}", age);
-            throw new IllegalArgumentException("Нас сөрөг байж болохгүй.");
+            throw new IllegalArgumentException("Age cannot be negative.");
         }
         this.age = age;
         logger.info("Patient age updated: {}", age);

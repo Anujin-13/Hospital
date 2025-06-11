@@ -1,0 +1,60 @@
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=P002, name=Saraa
+[2025-06-11 18:23:33] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 18:23:33] INFO  Patient:13 - Patient created: id=P002, name=Saraa
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=D002, name=Naran
+[2025-06-11 18:23:33] INFO  Doctor:27 - Doctor specialization updated: Doctor
+[2025-06-11 18:23:33] INFO  Doctor:13 - Doctor created: id=D002, name=Naran, specialization=Doctor
+[2025-06-11 18:23:33] INFO  Appointment:38 - Appointment created: A001
+[2025-06-11 18:23:33] INFO  AppointmentTest:21 - Appointment test setup completed.
+[2025-06-11 18:23:33] ERROR AppointmentTest:38 - Exception caught: Appointment ID cannot be null or empty
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=P002, name=Saraa
+[2025-06-11 18:23:33] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 18:23:33] INFO  Patient:13 - Patient created: id=P002, name=Saraa
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=D002, name=Naran
+[2025-06-11 18:23:33] INFO  Doctor:27 - Doctor specialization updated: Doctor
+[2025-06-11 18:23:33] INFO  Doctor:13 - Doctor created: id=D002, name=Naran, specialization=Doctor
+[2025-06-11 18:23:33] INFO  Appointment:38 - Appointment created: A001
+[2025-06-11 18:23:33] INFO  AppointmentTest:21 - Appointment test setup completed.
+[2025-06-11 18:23:33] INFO  AppointmentTest:30 - Appointment creation test passed.
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=P001, name=Bat
+[2025-06-11 18:23:33] INFO  Patient:27 - Patient age updated: 25
+[2025-06-11 18:23:33] INFO  Patient:13 - Patient created: id=P001, name=Bat
+[2025-06-11 18:23:33] INFO  PatientTest:16 - Test setup complete
+[2025-06-11 18:23:33] ERROR Patient:23 - Invalid age: -5
+[2025-06-11 18:23:33] ERROR PatientTest:31 - Exception caught: Age cannot be negative.
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=P001, name=Bat
+[2025-06-11 18:23:33] INFO  Patient:27 - Patient age updated: 25
+[2025-06-11 18:23:33] INFO  Patient:13 - Patient created: id=P001, name=Bat
+[2025-06-11 18:23:33] INFO  PatientTest:16 - Test setup complete
+[2025-06-11 18:23:33] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 18:23:33] INFO  PatientTest:23 - Patient age set successfully
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=D001, name=Boldoo
+[2025-06-11 18:23:33] INFO  Doctor:27 - Doctor specialization updated: Cardiologist
+[2025-06-11 18:23:33] INFO  Doctor:13 - Doctor created: id=D001, name=Boldoo, specialization=Cardiologist
+[2025-06-11 18:23:33] INFO  DoctorTest:16 - Doctor test setup completed.
+[2025-06-11 18:23:33] ERROR Doctor:23 - Invalid specialization: empty
+[2025-06-11 18:23:33] ERROR DoctorTest:31 - Exception caught: The specialization field cannot be empty.
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=D001, name=Boldoo
+[2025-06-11 18:23:33] INFO  Doctor:27 - Doctor specialization updated: Cardiologist
+[2025-06-11 18:23:33] INFO  Doctor:13 - Doctor created: id=D001, name=Boldoo, specialization=Cardiologist
+[2025-06-11 18:23:33] INFO  DoctorTest:16 - Doctor test setup completed.
+[2025-06-11 18:23:33] INFO  Doctor:27 - Doctor specialization updated: Pediatrician
+[2025-06-11 18:23:33] INFO  DoctorTest:23 - Doctor specialization updated successfully.
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=P003, name=Dorjoo
+[2025-06-11 18:23:33] INFO  Patient:27 - Patient age updated: 40
+[2025-06-11 18:23:33] INFO  Patient:13 - Patient created: id=P003, name=Dorjoo
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=D003, name=Suvdaa
+[2025-06-11 18:23:33] INFO  Doctor:27 - Doctor specialization updated: Diagnostician
+[2025-06-11 18:23:33] INFO  Doctor:13 - Doctor created: id=D003, name=Suvdaa, specialization=Diagnostician
+[2025-06-11 18:23:33] INFO  VisitRecord:42 - VisitRecord created: V001
+[2025-06-11 18:23:33] INFO  VisitRecordTest:21 - VisitRecord test setup completed.
+[2025-06-11 18:23:33] INFO  VisitRecordTest:31 - VisitRecord creation test passed.
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=P003, name=Dorjoo
+[2025-06-11 18:23:33] INFO  Patient:27 - Patient age updated: 40
+[2025-06-11 18:23:33] INFO  Patient:13 - Patient created: id=P003, name=Dorjoo
+[2025-06-11 18:23:33] INFO  User:20 - User created: id=D003, name=Suvdaa
+[2025-06-11 18:23:33] INFO  Doctor:27 - Doctor specialization updated: Diagnostician
+[2025-06-11 18:23:33] INFO  Doctor:13 - Doctor created: id=D003, name=Suvdaa, specialization=Diagnostician
+[2025-06-11 18:23:33] INFO  VisitRecord:42 - VisitRecord created: V001
+[2025-06-11 18:23:33] INFO  VisitRecordTest:21 - VisitRecord test setup completed.
+[2025-06-11 18:23:33] ERROR VisitRecordTest:39 - Exception caught: Visit ID cannot be null or empty

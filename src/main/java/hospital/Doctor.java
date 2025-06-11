@@ -21,7 +21,7 @@ public class Doctor extends User {
     public void setSpecialization(String specialization) {
         if (specialization == null || specialization.trim().isEmpty()) {
             logger.error("Invalid specialization: empty");
-            throw new IllegalArgumentException("Мэргэшлийн талбар хоосон байж болохгүй.");
+            throw new IllegalArgumentException("The specialization field cannot be empty.");
         }
         this.specialization = specialization;
         logger.info("Doctor specialization updated: {}", specialization);

@@ -12,7 +12,7 @@ public class PatientTest {
 
     @BeforeEach
     public void setup() {
-        patient = new Patient("P001", "Бат", "99001122", 25);
+        patient = new Patient("P001", "Bat", "99001122", 25);
         logger.info("Test setup complete");
     }
 
@@ -29,6 +29,6 @@ public class PatientTest {
             patient.setAge(-5);
         });
         logger.error("Exception caught: {}", exception.getMessage());
-        assertEquals("Нас сөрөг байж болохгүй.", exception.getMessage());
+        assertEquals("Age cannot be negative.", exception.getMessage());
     }
 }

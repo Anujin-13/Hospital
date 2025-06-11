@@ -15,9 +15,9 @@ public class VisitRecordTest {
 
     @BeforeEach
     public void setUp() {
-        patient = new Patient("P003", "Болд", "99005566", 40);
-        doctor = new Doctor("D003", "Сувдаа", "99116677", "Оношлогч");
-        visitRecord = new VisitRecord("V001", patient, doctor, LocalDateTime.now().minusDays(1), "Ханиад", "Амрах");
+        patient = new Patient("P003", "Dorjoo", "99005566", 40);
+        doctor = new Doctor("D003", "Suvdaa", "99116677", "Diagnostician");
+        visitRecord = new VisitRecord("V001", patient, doctor, LocalDateTime.now().minusDays(1), "Flu", "Rest");
         logger.info("VisitRecord test setup completed.");
     }
 
@@ -26,15 +26,15 @@ public class VisitRecordTest {
         assertEquals("V001", visitRecord.getId());
         assertEquals(patient, visitRecord.getPatient());
         assertEquals(doctor, visitRecord.getDoctor());
-        assertEquals("Ханиад", visitRecord.getDiagnosis());
-        assertEquals("Амрах", visitRecord.getTreatment());
+        assertEquals("Flu", visitRecord.getDiagnosis());
+        assertEquals("Rest", visitRecord.getTreatment());
         logger.info("VisitRecord creation test passed.");
     }
 
     @Test
     public void testInvalidVisitRecordId() {
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
-            new VisitRecord("", patient, doctor, LocalDateTime.now(), "Халуурах", "Эмчлэх");
+            new VisitRecord("", patient, doctor, LocalDateTime.now(), "To be feverish", "Treat");
         });
         logger.error("Exception caught: {}", exception.getMessage());
         assertEquals("Visit ID cannot be null or empty", exception.getMessage());
