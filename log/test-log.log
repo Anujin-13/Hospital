@@ -1,0 +1,180 @@
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=P001, name=Бат
+[2025-06-11 15:56:06] INFO  Patient:27 - Patient age updated: 25
+[2025-06-11 15:56:06] INFO  Patient:13 - Patient created: id=P001, name=Бат
+[2025-06-11 15:56:06] INFO  PatientTest:16 - Test setup complete
+[2025-06-11 15:56:06] ERROR Patient:23 - Invalid age: -5
+[2025-06-11 15:56:06] ERROR PatientTest:31 - Exception caught: Нас сөрөг байж болохгүй.
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=P001, name=Бат
+[2025-06-11 15:56:06] INFO  Patient:27 - Patient age updated: 25
+[2025-06-11 15:56:06] INFO  Patient:13 - Patient created: id=P001, name=Бат
+[2025-06-11 15:56:06] INFO  PatientTest:16 - Test setup complete
+[2025-06-11 15:56:06] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 15:56:06] INFO  PatientTest:23 - Patient age set successfully
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=P003, name=Болд
+[2025-06-11 15:56:06] INFO  Patient:27 - Patient age updated: 40
+[2025-06-11 15:56:06] INFO  Patient:13 - Patient created: id=P003, name=Болд
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=D003, name=Сувдаа
+[2025-06-11 15:56:06] INFO  Doctor:27 - Doctor specialization updated: Оношлогч
+[2025-06-11 15:56:06] INFO  Doctor:13 - Doctor created: id=D003, name=Сувдаа, specialization=Оношлогч
+[2025-06-11 15:56:06] INFO  VisitRecord:42 - VisitRecord created: V001
+[2025-06-11 15:56:06] INFO  VisitRecordTest:21 - VisitRecord test setup completed.
+[2025-06-11 15:56:06] INFO  VisitRecordTest:31 - VisitRecord creation test passed.
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=P003, name=Болд
+[2025-06-11 15:56:06] INFO  Patient:27 - Patient age updated: 40
+[2025-06-11 15:56:06] INFO  Patient:13 - Patient created: id=P003, name=Болд
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=D003, name=Сувдаа
+[2025-06-11 15:56:06] INFO  Doctor:27 - Doctor specialization updated: Оношлогч
+[2025-06-11 15:56:06] INFO  Doctor:13 - Doctor created: id=D003, name=Сувдаа, specialization=Оношлогч
+[2025-06-11 15:56:06] INFO  VisitRecord:42 - VisitRecord created: V001
+[2025-06-11 15:56:06] INFO  VisitRecordTest:21 - VisitRecord test setup completed.
+[2025-06-11 15:56:06] ERROR VisitRecordTest:39 - Exception caught: Visit ID cannot be null or empty
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=D001, name=Дэлгэр
+[2025-06-11 15:56:06] INFO  Doctor:27 - Doctor specialization updated: Кардиолог
+[2025-06-11 15:56:06] INFO  Doctor:13 - Doctor created: id=D001, name=Дэлгэр, specialization=Кардиолог
+[2025-06-11 15:56:06] INFO  DoctorTest:16 - Doctor test setup completed.
+[2025-06-11 15:56:06] ERROR Doctor:23 - Invalid specialization: empty
+[2025-06-11 15:56:06] ERROR DoctorTest:31 - Exception caught: Мэргэшлийн талбар хоосон байж болохгүй.
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=D001, name=Дэлгэр
+[2025-06-11 15:56:06] INFO  Doctor:27 - Doctor specialization updated: Кардиолог
+[2025-06-11 15:56:06] INFO  Doctor:13 - Doctor created: id=D001, name=Дэлгэр, specialization=Кардиолог
+[2025-06-11 15:56:06] INFO  DoctorTest:16 - Doctor test setup completed.
+[2025-06-11 15:56:06] INFO  Doctor:27 - Doctor specialization updated: Педиатр
+[2025-06-11 15:56:06] INFO  DoctorTest:23 - Doctor specialization updated successfully.
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=P002, name=Сараа
+[2025-06-11 15:56:06] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 15:56:06] INFO  Patient:13 - Patient created: id=P002, name=Сараа
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=D002, name=Наран
+[2025-06-11 15:56:06] INFO  Doctor:27 - Doctor specialization updated: Эмч
+[2025-06-11 15:56:06] INFO  Doctor:13 - Doctor created: id=D002, name=Наран, specialization=Эмч
+[2025-06-11 15:56:06] INFO  Appointment:38 - Appointment created: A001
+[2025-06-11 15:56:06] INFO  AppointmentTest:21 - Appointment test setup completed.
+[2025-06-11 15:56:06] ERROR AppointmentTest:38 - Exception caught: Appointment ID cannot be null or empty
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=P002, name=Сараа
+[2025-06-11 15:56:06] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 15:56:06] INFO  Patient:13 - Patient created: id=P002, name=Сараа
+[2025-06-11 15:56:06] INFO  User:20 - User created: id=D002, name=Наран
+[2025-06-11 15:56:06] INFO  Doctor:27 - Doctor specialization updated: Эмч
+[2025-06-11 15:56:06] INFO  Doctor:13 - Doctor created: id=D002, name=Наран, specialization=Эмч
+[2025-06-11 15:56:06] INFO  Appointment:38 - Appointment created: A001
+[2025-06-11 15:56:06] INFO  AppointmentTest:21 - Appointment test setup completed.
+[2025-06-11 15:56:06] INFO  AppointmentTest:30 - Appointment creation test passed.
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=P001, name=Бат
+[2025-06-11 15:57:01] INFO  Patient:27 - Patient age updated: 25
+[2025-06-11 15:57:01] INFO  Patient:13 - Patient created: id=P001, name=Бат
+[2025-06-11 15:57:01] INFO  PatientTest:16 - Test setup complete
+[2025-06-11 15:57:01] ERROR Patient:23 - Invalid age: -5
+[2025-06-11 15:57:01] ERROR PatientTest:31 - Exception caught: Нас сөрөг байж болохгүй.
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=P001, name=Бат
+[2025-06-11 15:57:01] INFO  Patient:27 - Patient age updated: 25
+[2025-06-11 15:57:01] INFO  Patient:13 - Patient created: id=P001, name=Бат
+[2025-06-11 15:57:01] INFO  PatientTest:16 - Test setup complete
+[2025-06-11 15:57:01] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 15:57:01] INFO  PatientTest:23 - Patient age set successfully
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=P003, name=Болд
+[2025-06-11 15:57:01] INFO  Patient:27 - Patient age updated: 40
+[2025-06-11 15:57:01] INFO  Patient:13 - Patient created: id=P003, name=Болд
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=D003, name=Сувдаа
+[2025-06-11 15:57:01] INFO  Doctor:27 - Doctor specialization updated: Оношлогч
+[2025-06-11 15:57:01] INFO  Doctor:13 - Doctor created: id=D003, name=Сувдаа, specialization=Оношлогч
+[2025-06-11 15:57:01] INFO  VisitRecord:42 - VisitRecord created: V001
+[2025-06-11 15:57:01] INFO  VisitRecordTest:21 - VisitRecord test setup completed.
+[2025-06-11 15:57:01] INFO  VisitRecordTest:31 - VisitRecord creation test passed.
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=P003, name=Болд
+[2025-06-11 15:57:01] INFO  Patient:27 - Patient age updated: 40
+[2025-06-11 15:57:01] INFO  Patient:13 - Patient created: id=P003, name=Болд
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=D003, name=Сувдаа
+[2025-06-11 15:57:01] INFO  Doctor:27 - Doctor specialization updated: Оношлогч
+[2025-06-11 15:57:01] INFO  Doctor:13 - Doctor created: id=D003, name=Сувдаа, specialization=Оношлогч
+[2025-06-11 15:57:01] INFO  VisitRecord:42 - VisitRecord created: V001
+[2025-06-11 15:57:01] INFO  VisitRecordTest:21 - VisitRecord test setup completed.
+[2025-06-11 15:57:01] ERROR VisitRecordTest:39 - Exception caught: Visit ID cannot be null or empty
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=D001, name=Дэлгэр
+[2025-06-11 15:57:01] INFO  Doctor:27 - Doctor specialization updated: Кардиолог
+[2025-06-11 15:57:01] INFO  Doctor:13 - Doctor created: id=D001, name=Дэлгэр, specialization=Кардиолог
+[2025-06-11 15:57:01] INFO  DoctorTest:16 - Doctor test setup completed.
+[2025-06-11 15:57:01] ERROR Doctor:23 - Invalid specialization: empty
+[2025-06-11 15:57:01] ERROR DoctorTest:31 - Exception caught: Мэргэшлийн талбар хоосон байж болохгүй.
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=D001, name=Дэлгэр
+[2025-06-11 15:57:01] INFO  Doctor:27 - Doctor specialization updated: Кардиолог
+[2025-06-11 15:57:01] INFO  Doctor:13 - Doctor created: id=D001, name=Дэлгэр, specialization=Кардиолог
+[2025-06-11 15:57:01] INFO  DoctorTest:16 - Doctor test setup completed.
+[2025-06-11 15:57:01] INFO  Doctor:27 - Doctor specialization updated: Педиатр
+[2025-06-11 15:57:01] INFO  DoctorTest:23 - Doctor specialization updated successfully.
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=P002, name=Сараа
+[2025-06-11 15:57:01] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 15:57:01] INFO  Patient:13 - Patient created: id=P002, name=Сараа
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=D002, name=Наран
+[2025-06-11 15:57:01] INFO  Doctor:27 - Doctor specialization updated: Эмч
+[2025-06-11 15:57:01] INFO  Doctor:13 - Doctor created: id=D002, name=Наран, specialization=Эмч
+[2025-06-11 15:57:01] INFO  Appointment:38 - Appointment created: A001
+[2025-06-11 15:57:01] INFO  AppointmentTest:21 - Appointment test setup completed.
+[2025-06-11 15:57:01] ERROR AppointmentTest:38 - Exception caught: Appointment ID cannot be null or empty
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=P002, name=Сараа
+[2025-06-11 15:57:01] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 15:57:01] INFO  Patient:13 - Patient created: id=P002, name=Сараа
+[2025-06-11 15:57:01] INFO  User:20 - User created: id=D002, name=Наран
+[2025-06-11 15:57:01] INFO  Doctor:27 - Doctor specialization updated: Эмч
+[2025-06-11 15:57:01] INFO  Doctor:13 - Doctor created: id=D002, name=Наран, specialization=Эмч
+[2025-06-11 15:57:01] INFO  Appointment:38 - Appointment created: A001
+[2025-06-11 15:57:01] INFO  AppointmentTest:21 - Appointment test setup completed.
+[2025-06-11 15:57:01] INFO  AppointmentTest:30 - Appointment creation test passed.
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=P002, name=Сараа
+[2025-06-11 16:34:08] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 16:34:08] INFO  Patient:13 - Patient created: id=P002, name=Сараа
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=D002, name=Наран
+[2025-06-11 16:34:08] INFO  Doctor:27 - Doctor specialization updated: Эмч
+[2025-06-11 16:34:08] INFO  Doctor:13 - Doctor created: id=D002, name=Наран, specialization=Эмч
+[2025-06-11 16:34:08] INFO  Appointment:38 - Appointment created: A001
+[2025-06-11 16:34:08] INFO  AppointmentTest:21 - Appointment test setup completed.
+[2025-06-11 16:34:08] ERROR AppointmentTest:38 - Exception caught: Appointment ID cannot be null or empty
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=P002, name=Сараа
+[2025-06-11 16:34:08] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 16:34:08] INFO  Patient:13 - Patient created: id=P002, name=Сараа
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=D002, name=Наран
+[2025-06-11 16:34:08] INFO  Doctor:27 - Doctor specialization updated: Эмч
+[2025-06-11 16:34:08] INFO  Doctor:13 - Doctor created: id=D002, name=Наран, specialization=Эмч
+[2025-06-11 16:34:08] INFO  Appointment:38 - Appointment created: A001
+[2025-06-11 16:34:08] INFO  AppointmentTest:21 - Appointment test setup completed.
+[2025-06-11 16:34:08] INFO  AppointmentTest:30 - Appointment creation test passed.
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=D001, name=Дэлгэр
+[2025-06-11 16:34:08] INFO  Doctor:27 - Doctor specialization updated: Кардиолог
+[2025-06-11 16:34:08] INFO  Doctor:13 - Doctor created: id=D001, name=Дэлгэр, specialization=Кардиолог
+[2025-06-11 16:34:08] INFO  DoctorTest:16 - Doctor test setup completed.
+[2025-06-11 16:34:08] ERROR Doctor:23 - Invalid specialization: empty
+[2025-06-11 16:34:08] ERROR DoctorTest:31 - Exception caught: Мэргэшлийн талбар хоосон байж болохгүй.
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=D001, name=Дэлгэр
+[2025-06-11 16:34:08] INFO  Doctor:27 - Doctor specialization updated: Кардиолог
+[2025-06-11 16:34:08] INFO  Doctor:13 - Doctor created: id=D001, name=Дэлгэр, specialization=Кардиолог
+[2025-06-11 16:34:08] INFO  DoctorTest:16 - Doctor test setup completed.
+[2025-06-11 16:34:08] INFO  Doctor:27 - Doctor specialization updated: Педиатр
+[2025-06-11 16:34:08] INFO  DoctorTest:23 - Doctor specialization updated successfully.
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=P001, name=Бат
+[2025-06-11 16:34:08] INFO  Patient:27 - Patient age updated: 25
+[2025-06-11 16:34:08] INFO  Patient:13 - Patient created: id=P001, name=Бат
+[2025-06-11 16:34:08] INFO  PatientTest:16 - Test setup complete
+[2025-06-11 16:34:08] ERROR Patient:23 - Invalid age: -5
+[2025-06-11 16:34:08] ERROR PatientTest:31 - Exception caught: Нас сөрөг байж болохгүй.
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=P001, name=Бат
+[2025-06-11 16:34:08] INFO  Patient:27 - Patient age updated: 25
+[2025-06-11 16:34:08] INFO  Patient:13 - Patient created: id=P001, name=Бат
+[2025-06-11 16:34:08] INFO  PatientTest:16 - Test setup complete
+[2025-06-11 16:34:08] INFO  Patient:27 - Patient age updated: 30
+[2025-06-11 16:34:08] INFO  PatientTest:23 - Patient age set successfully
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=P003, name=Болд
+[2025-06-11 16:34:08] INFO  Patient:27 - Patient age updated: 40
+[2025-06-11 16:34:08] INFO  Patient:13 - Patient created: id=P003, name=Болд
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=D003, name=Сувдаа
+[2025-06-11 16:34:08] INFO  Doctor:27 - Doctor specialization updated: Оношлогч
+[2025-06-11 16:34:08] INFO  Doctor:13 - Doctor created: id=D003, name=Сувдаа, specialization=Оношлогч
+[2025-06-11 16:34:08] INFO  VisitRecord:42 - VisitRecord created: V001
+[2025-06-11 16:34:08] INFO  VisitRecordTest:21 - VisitRecord test setup completed.
+[2025-06-11 16:34:08] INFO  VisitRecordTest:31 - VisitRecord creation test passed.
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=P003, name=Болд
+[2025-06-11 16:34:08] INFO  Patient:27 - Patient age updated: 40
+[2025-06-11 16:34:08] INFO  Patient:13 - Patient created: id=P003, name=Болд
+[2025-06-11 16:34:08] INFO  User:20 - User created: id=D003, name=Сувдаа
+[2025-06-11 16:34:08] INFO  Doctor:27 - Doctor specialization updated: Оношлогч
+[2025-06-11 16:34:08] INFO  Doctor:13 - Doctor created: id=D003, name=Сувдаа, specialization=Оношлогч
+[2025-06-11 16:34:08] INFO  VisitRecord:42 - VisitRecord created: V001
+[2025-06-11 16:34:08] INFO  VisitRecordTest:21 - VisitRecord test setup completed.
+[2025-06-11 16:34:08] ERROR VisitRecordTest:39 - Exception caught: Visit ID cannot be null or empty
