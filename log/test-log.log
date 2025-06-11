@@ -175,6 +175,4 @@
 [2025-06-11 16:34:08] INFO  User:20 - User created: id=D003, name=Сувдаа
 [2025-06-11 16:34:08] INFO  Doctor:27 - Doctor specialization updated: Оношлогч
 [2025-06-11 16:34:08] INFO  Doctor:13 - Doctor created: id=D003, name=Сувдаа, specialization=Оношлогч
-[2025-06-11 16:34:08] INFO  VisitRecord:42 - VisitRecord created: V001
-[2025-06-11 16:34:08] INFO  VisitRecordTest:21 - VisitRecord test setup completed.
-[2025-06-11 16:34:08] ERROR VisitRecordTest:39 - Exception caught: Visit ID cannot be null or empty
+
