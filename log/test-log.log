@@ -3,7 +3,6 @@
 [2025-06-11 15:56:06] INFO  Patient:13 - Patient created: id=P001, name=Бат
 [2025-06-11 15:56:06] INFO  PatientTest:16 - Test setup complete
 [2025-06-11 15:56:06] ERROR Patient:23 - Invalid age: -5
-[2025-06-11 15:56:06] ERROR PatientTest:31 - Exception caught: Нас сөрөг байж болохгүй.
 [2025-06-11 15:56:06] INFO  User:20 - User created: id=P001, name=Бат
 [2025-06-11 15:56:06] INFO  Patient:27 - Patient age updated: 25
 [2025-06-11 15:56:06] INFO  Patient:13 - Patient created: id=P001, name=Бат
