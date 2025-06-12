@@ -1,0 +1,157 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[mongolian]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\geometry{a4paper, margin=3cm}
+
+\begin{document}
+
+\begin{center}
+\textbf{ШИНЖЛЭХ УХААН ТЕХНОЛОГИЙН ИХ СУРГУУЛЬ} \\[0.5cm]
+\textbf{Мэдээлэл, Холбооны Технологийн Сургууль} \\[4cm]
+
+\textbf{\Large ТАЙЛАН} \\[0.5cm]
+\textbf{Програмчлалын үндэс дадлага} \\[0.5cm]
+2025–2026 оны хичээлийн жилийн хавар \\[2cm]
+\end{center}
+
+\vspace{1cm}
+
+\noindent\textbf{Тайлан ажлын нэр:} \hspace{1cm} Эмнэлгийн өвчтөн бүртгэлийн систем \\[0.5cm]
+\textbf{Хичээл заасан багш:} \hspace{1cm} А.Отгонбаяр \\[0.5cm]
+\textbf{Бие даалтын ажил гүйцэтгэсэн:} \\
+\hspace{1cm} Э.Анужин B242270109 \\
+\hspace{1cm} Ө.Анар B242270129 \\
+
+\vfill
+
+\begin{center}
+Улаанбаатар хот, 2025 он.
+\end{center}
+
+\newpage
+
+\section*{Төслийн танилцуулга}
+
+Энэхүү \textbf{“Эмнэлгийн Өвчтөн Удирдлагын Систем”} нь эмнэлгийн дотоод үйл ажиллагааг цахимжуулж, өвчтөн бүртгэл, цаг захиалга болон эмчилгээний түүхийг удирдах зорилготой. Систем нь хэрэглэгчдэд хурдан, зохион байгуулалттай үйлчилгээ үзүүлэх боломжийг бүрдүүлдэг бөгөөд \textbf{Java} хэл дээр бүтээгдсэн.
+
+\subsection*{Хэрэглэгчид ба үүрэг}
+
+\begin{itemize}
+  \item \textbf{Өвчтөн} — Өөрийн мэдээллийг бүртгүүлэх, эмчид цаг захиалах, эмчилгээний түүхээ харах.
+  \item \textbf{Эмч} — Өвчтөний мэдээллийг харах, онош бичих, түүх хөтлөх.
+  \item \textbf{Админ / Эмнэлгийн ажилтан} — Бүх бүртгэлийг хянах, цагийн хуваарь удирдах, тайлан гаргах.
+\end{itemize}
+
+\subsection*{Гол функцүүд}
+
+\begin{itemize}
+  \item Өвчтөн нэмэх, засах, устгах
+  \item Эмчийн мэдээлэл бүртгэх
+  \item \texttt{Appointment} ашиглан цаг захиалга хийх
+  \item \texttt{VisitRecord} ашиглан онош, эмчилгээний түүх хадгалах
+  \item Өвчтөн болон эмчийн мэдээлэл хайх, жагсааж харах
+\end{itemize}
+
+\subsection*{Кодын дизайн, бүтэц}
+
+Системийн үндсэн классуудад дараах объектууд багтсан:
+
+\begin{itemize}
+  \item \textbf{Patient} — Өвчтөний нэр, нас, хаяг, утас зэрэг хувийн мэдээллийг хадгална.
+  \item \textbf{Doctor} — Эмчийн нэр, хариуцсан тасгийн мэдээлэл.
+  \item \textbf{Appointment} — \texttt{Patient} болон \texttt{Doctor} классуудыг холбон цаг захиалгыг илэрхийлнэ.
+  \item \textbf{VisitRecord} — Онош, эмчилгээ, оношлогооны огноо зэрэг эмчилгээний түүхийг хадгална.
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{image (2).png}
+    \caption{UML зураг}
+    \label{fig:uml-diagram}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{506108377_1051333219852750_2026075398104957326_n.png}
+    \caption{Кодын бүтэц}
+    \label{fig:system-structure}
+\end{figure}
+
+\newpage
+
+\section*{Patient класс}
+
+\texttt{Patient(String name, int age, String phone)} \\
+Шинэ өвчтөн бүртгэх зориулалттай конструктор. \\
+\textbf{Параметрүүд:} нэр, нас, утасны дугаар. \\
+\textbf{Алдаа:} Хэрэв нэр хоосон, нас 0-ээс бага, эсвэл утасны дугаар буруу бол \texttt{IllegalArgumentException}. \\
+\textbf{Лог:} Амжилттай бүртгэгдсэн тухай \texttt{info} лог бүртгэгдэнэ.
+
+\section*{Doctor класс}
+
+\texttt{Doctor(String name, String department)} \\
+Эмчийн нэр болон харьяалагдах тасгийн мэдээлэл бүхий обьект үүсгэнэ. \\
+\textbf{Алдаа:} Нэр эсвэл тасгийн нэр хоосон байвал \texttt{IllegalArgumentException}. \\
+\textbf{Лог:} Бүртгэлийн тухай \texttt{info} түвшний мэдээлэл хадгалагдана.
+
+\section*{Appointment класс}
+
+\texttt{Appointment(Patient patient, Doctor doctor, LocalDate date)} \\
+Өвчтөн болон эмчийн хооронд цаг захиалга үүсгэнэ. \\
+\textbf{Алдаа:}
+\begin{itemize}
+    \item Хоосон объект (\texttt{null}) дамжуулбал \texttt{NullPointerException}.
+    \item Огноо өнгөрсөн бол \texttt{IllegalArgumentException}.
+\end{itemize}
+\textbf{Лог:} Амжилттай цаг захиалсан тухай \texttt{info} бүртгэгдэнэ.
+
+\section*{VisitRecord класс}
+
+\texttt{VisitRecord(Patient patient, String diagnosis, String treatment, LocalDate date)} \\
+Өвчтөний эмчилгээний түүхийг бүртгэн хадгалах зориулалттай. \\
+\textbf{Алдаа:} Өвчтөн \texttt{null} байвал эсвэл онош хоосон бол \texttt{IllegalArgumentException}. \\
+\textbf{Лог:} Түүх бүртгэгдсэн тухай \texttt{info} лог хадгалагдана.
+
+\section*{Log4j2 лог бүртгэлийн ашиглалт}
+
+\texttt{org.apache.logging.log4j} санг ашиглан дараах лог түвшинг хэрэглэсэн:
+
+\begin{itemize}
+    \item \texttt{logger.info()} – Амжилттай үйлдлийн бүртгэл
+    \item \texttt{logger.warn()} – Анхааруулга шаардлагатай нөхцөл
+    \item \texttt{logger.error()} – Алдаа гарсан тохиолдолд
+\end{itemize}
+
+\section*{Алдааны зохицуулалт}
+
+Систем дараах төрлийн алдааг илрүүлж, лог болон хэрэглэгчид ойлгомжтой мэдэгдэл үзүүлдэг:
+
+\begin{itemize}
+    \item \texttt{IllegalArgumentException} – Буруу утга, хоосон текст, нас 0-ээс бага гэх мэт
+    \item \texttt{IllegalStateException} – Тухайн нөхцөлд тохироогүй үйлдэл хийх оролдлого
+    \item \texttt{NullPointerException} – Хоосон объект дамжуулсан үед
+\end{itemize}
+
+\section*{Дүгнэлт}
+
+Энэхүү \textbf{“Эмнэлгийн Өвчтөн Удирдлагын Систем”} төсөл нь эмнэлгийн өдөр тутмын үйл ажиллагааг програмчлалын аргаар үр дүнтэй удирдах боломжийг бүрдүүлсэн. Объект хандалтат зарчим, лог бүртгэл, алдааны зохицуулалт зэргийг ашигласнаар найдвартай, өргөтгөх боломжтой систем болсон.
+
+Цаашид график хэрэглэгчийн интерфэйс нэмэх, эрхийн түвшин ялгах, мэдэгдэл илгээх зэрэг өргөтгөл хийх боломжтой.
+
+\section*{Ашигласан материал}
+
+\begin{itemize}
+    \item \href{https://www.odoo.com}{Odoo.com} – Төслийн санаа
+    \item \href{https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html}{Java 17} – Програмчлалын хэл
+    \item \href{https://maven.apache.org}{Maven} – Автоматжуулалтын хэрэгсэл
+    \item \href{https://logging.apache.org/log4j/2.x/}{Log4j2} – Лог бүртгэлийн сан
+    \item \href{https://junit.org/junit5/}{JUnit 5} – Тестийн фрэймворк
+    \item \href{https://code.visualstudio.com}{VS Code} – IDE
+    \item \href{https://github.com}{GitHub} – Код хадгалах, хуваалцах
+    \item \href{https://www.microsoft.com/en-us/microsoft-teams/group-chat-software}{Microsoft Teams} – Даалгавар явуулах
+\end{itemize}
+
+\end{document}
